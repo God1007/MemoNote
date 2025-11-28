@@ -43,6 +43,11 @@ public class MainActivity extends AppCompatActivity implements MemoAdapter.MemoC
         setupList();
         setupFilters();
         verifyPassword();
+        // 如果业务希望通过“界面跳转”来进入备忘录列表（而不是弹窗解锁），
+        // 可以在跳转前完成鉴权，并在跳转 Intent 中携带已验证标记，
+        // 例如：startActivity(new Intent(this, MainActivity.class).putExtra("fromAuth", true));
+        // 然后在这里检测标记并直接调用 loadMemos("")，跳过 verifyPassword()
+        // （不要忘了删除或条件化调用 verifyPassword，以免仍然弹出密码框）。
     }
 
     private void setupList() {
