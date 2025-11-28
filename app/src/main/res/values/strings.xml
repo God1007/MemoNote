@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">MemoNote</string>
+    <string name="search_hint">搜索或输入关键词</string>
+    <string-array name="categories">
+        <item>全部</item>
+        <item>工作</item>
+        <item>个人</item>
+        <item>学习</item>
+        <item>生活</item>
+    </string-array>
+    <string name="add_memo">新增备忘录</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+    <string name="image_preview">图片预览</string>
+    <string name="add_image">添加图片</string>
+    <string name="save">保存</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="sync">同步</string>
+    <string name="fill_all_fields">请填写完整标题和内容</string>
+    <string name="memo_missing">未找到备忘录</string>
+    <string name="timestamp_format">创建：%1$s\n更新：%2$s</string>
+    <string name="set_password">设置访问密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="password_mismatch">两次输入的密码不一致</string>
+    <string name="enter_password">输入密码</string>
+    <string name="invalid_password">密码错误</string>
+    <string name="unlock">解锁</string>
+    <string name="save_password">保存密码</string>
+    <string name="has_image">包含图片</string>
+    <string name="enter_password_hint">请输入访问密码</string>
+    <string name="synced">已同步到云端（示例）</string>
+    <string name="add_password">添加密码</string>
+    <string name="search_placeholder">输入关键字搜索</string>
+    <string name="set_password_title">请先设置密码</string>
+    <string name="enter_password_title">输入访问密码</string>
+    <string name="unlock_button">解锁</string>
+    <string name="save_button">保存</string>
+    <string name="password_hint">访问密码</string>
+    <string name="confirm_password_hint">确认访问密码</string>
 </resources>
